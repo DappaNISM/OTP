@@ -1,0 +1,8 @@
+# Opsional — hanya untuk auto-solve captcha Segari (solve_cap.py)
+# Butuh Python <= 3.13, karena onnxruntime belum punya wheel untuk 3.14/3.15.
+#
+#   py -3.13 -m pip install -r requirements-ocr.txt
+#
+# Kalau dilewati, otp.py tetap jalan. Lane Segari berhenti di status GATED
+# setelah captcha muncul (kira-kira setelah 5 kirim per nomor).
+ddddocr
